@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shoppingfull/pages/home.page.dart';
+import 'package:shoppingfull/ui/android/home.page.dart';
 
 void main() {
   runApp(MyApp());
