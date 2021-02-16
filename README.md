@@ -1,6 +1,6 @@
 # shoppingfull
 
-A new Flutter project.
+Shopping APP com Flutter, BloC e Provider - seguindo curso de balta.io 
 
 ## Getting Started
 
