@@ -4,9 +4,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Container(
-          child: Text("ShoppingFull"),
+      body: Container(
+        color: Colors.red,
+        child: Center(
+          child: Text("Shopping Cart"),
         ),
       ),
     );
