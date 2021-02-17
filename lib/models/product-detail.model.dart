@@ -4,7 +4,7 @@ class ProductDetailsModel {
   String id;
   String title;
   String tag;
-  int price;
+  double price;
   String description;
   String brand;
   List<String> images;
