@@ -2,7 +2,7 @@ class CartItemModel {
   String id;
   String title;
   int quantity;
-  int price;
+  double price;
   String image;
 
   CartItemModel({this.id, this.title, this.quantity, this.price, this.image});
