@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shoppingfull/blocs/home.bloc.dart';
 import 'package:shoppingfull/shared/widgets/category/category-list.widget.dart';
+import 'package:shoppingfull/shared/widgets/product/product-list.widget.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -26,6 +27,19 @@ class HomePage extends StatelessWidget {
             ),
             CategoryList(
               categories: bloc.categories,
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Mais Vendidos",
+              style: Theme.of(context).textTheme.headline5,
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            ProductList(
+              products: bloc.products,
             ),
           ],
         ),
