@@ -3,7 +3,7 @@ class ProductListItemModel {
   String title;
   String brand;
   String tag;
-  int price;
+  double price;
   String image;
 
   ProductListItemModel({
