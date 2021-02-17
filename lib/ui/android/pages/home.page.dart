@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shoppingfull/blocs/home.bloc.dart';
-import 'package:shoppingfull/shared/widgets/category/category-list.widget.dart';
-import 'package:shoppingfull/shared/widgets/product/product-list.widget.dart';
+import 'package:shoppingfull/ui/shared/widgets/category/category-list.widget.dart';
+import 'package:shoppingfull/ui/shared/widgets/product/product-list.widget.dart';
 
 class HomePage extends StatelessWidget {
   @override

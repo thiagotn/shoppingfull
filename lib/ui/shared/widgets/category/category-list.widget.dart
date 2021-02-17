@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:shoppingfull/models/category-list-item.model.dart';
-import 'package:shoppingfull/shared/widgets/category/category-card.widget.dart';
-import 'package:shoppingfull/shared/widgets/shared/loader.widget.dart';
+import 'package:shoppingfull/ui/shared/widgets/category/category-card.widget.dart';
+import 'package:shoppingfull/ui/shared/widgets/shared/loader.widget.dart';
 
 class CategoryList extends StatelessWidget {
   final List<CategoryListItemModel> categories;

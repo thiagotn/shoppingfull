@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shoppingfull/models/product-detail.model.dart';
 import 'package:shoppingfull/repositories/product.repository.dart';
-import 'package:shoppingfull/shared/widgets/shared/progress-indicator.widget.dart';
+import 'package:shoppingfull/ui/shared/widgets/shared/progress-indicator.widget.dart';
 
 class ProductPage extends StatelessWidget {
   final String tag;

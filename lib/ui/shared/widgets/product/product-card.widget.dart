@@ -3,6 +3,7 @@ import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:shoppingfull/models/product-list-item.model.dart';
 import 'package:shoppingfull/ui/android/pages/product.page.dart';
+import 'package:shoppingfull/ui/shared/widgets/shared/add-to-cart.widget.dart';
 
 class ProductCard extends StatelessWidget {
   final ProductListItemModel item;
@@ -101,7 +102,7 @@ class ProductCard extends StatelessWidget {
                     ),
                   ),
                 ),
-                // AddToCart(item: item),
+                AddToCart(item: item),
               ],
             ),
           ),
