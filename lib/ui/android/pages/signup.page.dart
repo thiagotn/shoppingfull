@@ -150,9 +150,11 @@ class _SignupPageState extends State<SignupPage> {
           SnackBar(content: Text('Não foi possível realizar seu cadastro'));
       _scaffoldKey.currentState.showSnackBar(snackBar);
     } else {
-      Navigator.pop(context);
       final snackBar = SnackBar(content: Text('Bem-vindo! Autentique-se'));
       _scaffoldKey.currentState.showSnackBar(snackBar);
+      Future.delayed(Duration(seconds: 2), () {
+        Navigator.pop(context);
+      });
     }
   }
 }
