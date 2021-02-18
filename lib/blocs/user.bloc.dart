@@ -21,8 +21,11 @@ class UserBloc extends ChangeNotifier {
       user = res;
       await prefs.setString('user', jsonEncode(res));
 
+      print("authenticate success: ${res.toJson().toString()}");
+      notifyListeners();
       return res;
     } catch (ex) {
+      print("authenticate error: ${ex.toString()}");
       user = null;
       return null;
     }

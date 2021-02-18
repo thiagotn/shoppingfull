@@ -8,9 +8,8 @@ class AccountPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var bloc = Provider.of<UserBloc>(context);
-
     return Scaffold(
-      body: bloc.user.email == null
+      body: bloc.user == null || bloc.user.email == null
           ? UnauthenticatedUserCard()
           : AuthenticatedUserCard(),
     );
